@@ -5,11 +5,11 @@ The Aqueduct Water Risk Atlas allows users to import files with coordinates or a
 This repo is intended for Vizzuality to pull files from the water risk atlas tool and allows for version control. 
 
 ## Coordinates
-[coordinate template](https://github.com/wri/aqueduct_analyze_locations/blob/master/example_coordinates.csv)
+[coordinate template](https://github.com/wri/aqueduct_analyze_locations/blob/master/input_templates/example_coordinates.csv)
 
 
 ## Addresses
-[address template](https://github.com/wri/aqueduct_analyze_locations/blob/master/example_address.csv)  
+[address template](https://github.com/wri/aqueduct_analyze_locations/blob/master/input_templates/example_address.csv)  
 [address FAQ](https://github.com/wri/aqueduct_analyze_locations/blob/master/address_faq.md)
 
 
