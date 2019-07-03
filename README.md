@@ -39,14 +39,14 @@ There are a few options:
 
 1. Combine the results in a single .xlsx file with tabs. 
 
-  Please try exporting the results after analyzing locations in our [old tool](https://www.wri.org/applications/maps/aqueduct-    atlas)   
+Please try exporting the results after analyzing locations in our [old tool](https://www.wri.org/applications/maps/aqueduct-    atlas)   
 
 Pros: All data in one place, no encoding issues
 
 2. Export a zipped folder with the different results in .csv files  
 
-  Pros: easier since csv is a Carto standard.  
-  Cons: However this **WILL** result in encoding issues. Users will double click the csv file and the UTF-8 endcoding will be lost based on the user locale setting  
+Pros: easier since csv is a Carto standard.  
+Cons: However this **WILL** result in encoding issues. Users will double click the csv file and the UTF-8 endcoding will be lost based on the user locale setting  
 
 Users need to understand the results so either convert the columns into human readable format, or include the dicitonary format.
 
