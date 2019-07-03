@@ -2,7 +2,7 @@
 
 ## **Q: How should I format my excel address file?**
 
-A: Your excel file should contain two columns: location name and address. See the [template](https://github.com/wri/aqueduct_analyze_locations/blob/master/example_coordinates.csv)
+A: Your excel file should contain two columns: location name and address. See the [template](https://github.com/wri/aqueduct_analyze_locations/blob/master/input_templates/example_address.csv)
 
 If your address components (street name, city, county) are in different columns, you should merge them into a single column. See the questions below on how to merge columns.  
 
