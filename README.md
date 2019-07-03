@@ -39,7 +39,7 @@ There are a few options:
 
 1. Combine the results in a single .xlsx file with tabs. 
 
-Please try exporting the results after analyzing locations in our [old tool](https://www.wri.org/applications/maps/aqueduct-    atlas)   
+Please try exporting the results after analyzing locations in our [old tool](https://www.wri.org/applications/maps/aqueduct-atlas)   
 
 Pros: All data in one place, no encoding issues
 
