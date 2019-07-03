@@ -13,5 +13,24 @@ This repo is intended for Vizzuality to pull files from the water risk atlas too
 [address FAQ](https://github.com/wri/aqueduct_analyze_locations/blob/master/address_faq.md)
 
 
+## Export format
+After analyzing the locations, users can export the results. The export should contain **all** the results:
+1. Annual.  
+1. Monthly.  
+1. Future Projections. 
+
+The format of the output data depends on whether coordinates or addresses have been used as input. 
+
+## coordinates
+
+
+
+
+
+
+
+
+
+
 
 
