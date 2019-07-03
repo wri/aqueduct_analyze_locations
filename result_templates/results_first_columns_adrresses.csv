@@ -1,0 +1,4 @@
+﻿id,location name,address,matched address,latitude (decimal degrees),longitude (decimal degrees)
+1,United States Office," 10 G Street NE, Washington, DC 20002 United States"," 10 G Street, Washington, DC 20002, USA",38.898992,-77.007986
+2,Brazil Office,"Rua Claudio Soares 72, Pinheiros 05422-030 04578-000 São Paulo, São Paulo, Brazil"," R. Cláudio Soares, 72 - Pinheiros, São Paulo - SP, 05422-012, Brazil",-23.568232,-46.693983
+3,Europe Office,"Fluwelen Burgwal 58, 2511 CJ, The Hague, Netherlands"," Fluwelen Burgwal 58, 2511 CJ Den Haag, Netherlands",52.07906,4.318852
