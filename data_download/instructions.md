@@ -2,7 +2,7 @@
 Date: 2019/07/05
 Author: Rutger Hofste
 
-Thank you for downloading Aqueduct data. This document will help you understand the data. Before diving into the results, make sure to familirize yourself with our technical notes (todo:insert link). For questions, check out our FAQ page (todo:insert link)
+This document will help you understand the downloaded Aqueducrt data. Before diving into the results, make sure to familiarize yourself with our technical notes (todo:insert link). For questions, check out our FAQ page (todo:insert link)
 
 Downloaded data comes in three flavors:
 1. Annual Baseline
@@ -86,6 +86,12 @@ industry, industry defined weighting scheme.
 
 In addition to the types for the individual indicators, we have
 \_weight_fraction, the fraction [0-1] of the group towards the overall water risk score. NoData is excluded from the weights and therefore the fractions can be lower than 1 depending on data availability. See the technical note for the weights per industy and indicator.  
+
+
+
+# Monthly Baseline
+
+# Future Projection
 
 
 
