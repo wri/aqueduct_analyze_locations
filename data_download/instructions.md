@@ -10,7 +10,8 @@ Depending on whether you downloaded the entire dataset or used the online tool t
 
 # First columns if using Analyze Locations
 
-**location_name**,(string), the user-defined name for your location.  
+| Column Name     | Data Type | Description |
+| **location_name** |(string) | the user-defined name for your location.| 
 
 
 **input_address**,(string), a copy of the address as specified by the user. Only if using addresses as input file.
