@@ -15,11 +15,11 @@ Downloaded data comes in three flavors:
 **string_id**, string, contains a unique string for each geometry. Geometries are the union of hydrological basins, provinces and groundwater aquifers. The string_id is a combination of pfaf_id-gid_1-aqid. See the description of those columns.  
 **aq30_id**, numerical, unique identifier.  
 **pfaf_id**, numerical, six digit Pfafstetter code for the hydrological basins.  
-**gid_1**, string, identifier for sub-national units based on the GADM dataset. It Iso A3 country code, followed by numeric values separated by underscores for each sub-national unit.   
+**gid_1**, string, identifier for sub-national units based on the GADM dataset. It contains the Iso A3 country code, followed by numeric values separated by underscores for each sub-national unit.   
 **aqid**, numerical, identifier for groundwater Aquifers based on WHYMAP.   
 
 ## Extra identifiers:  
-**gid_0**, string, ISO A3 country name based on GADM. See GADM for more information.   
+**gid_0**, string, ISO A3 country code based on GADM. See GADM for more information.   
 **name_0**, string, National or political entity name based on GADM. See GADM for more information.    
 **name_1**, string, Sub-national or political entity name based on GADM, See GADM for more information.   
 **area_km2**, numerical, area of the geometry in km2 (union of sub-basin, province and groundwater aquifer).  
@@ -86,8 +86,6 @@ industry, industry defined weighting scheme.
 
 In addition to the types for the individual indicators, we have
 \_weight_fraction, the fraction [0-1] of the group towards the overall water risk score. NoData is excluded from the weights and therefore the fractions can be lower than 1 depending on data availability. See the technical note for the weights per industy and indicator.  
-
-
 
 # Monthly Baseline
 
