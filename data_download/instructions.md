@@ -46,24 +46,30 @@ Depending on whether you downloaded the entire dataset or used the online tool t
 For each of the 13 indicators the columns contain the indicator abbreviation plus the type {indicator}\_{type}, e.g.:  
 "bws_raw" is baseline water stress, raw value. The indicator abbreviations and types are listed below.  
 
-### Physical risk quantity:  
-**bws**, Baseline water stress,  
-**bwd**, Baseline water depletion,  
-**iav**, Interannual variability,  
-**sev**, Seasonal variability,  
-**gtd**, Groundwater table decline,  
-**rfr**, Riverine flood risk,  
-**cfr**, Coastal flood risk,  
-**drr**, Drought risk
+### Physical risk quantity: 
+| Indicator Short    | Indicator Full |
+|-------------|-----|
+|**bws**| Baseline water stress|  
+|**bwd**| Baseline water depletion|  
+|**iav**| Interannual variability|  
+|**sev**| Seasonal variability|  
+|**gtd**| Groundwater table decline|  
+|**rfr**| Riverine flood risk|  
+|**cfr**| Coastal flood risk|  
+|**drr**| Drought risk|
 
 ### Physical risk quality:
-**ucw**, Untreated connected wastewater,  
-**cep**, Coastal eutrophication potential.
+| Indicator Short    | Indicator Full |
+|-------------|-----|
+|**ucw**| Untreated connected wastewater|  
+|**cep**| Coastal eutrophication potential|
 
 ### Regulatory and reputational risk:
-**udw**, Unimproved/no drinking water,   
-**usa**, Unimproved/no sanitation,  
-**rri**, Peak RepRisk ESG index.  
+| Indicator Short    | Indicator Full |
+|-------------|-----|
+|**udw**| Unimproved/no drinking water|    
+|**usa**| Unimproved/no sanitation|  
+|**rri**| Peak RepRisk ESG index|  
 
 ## Types:  
 **\_raw**, (double), raw value. Units depend on the indicator. See the technical note.  
