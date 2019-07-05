@@ -30,15 +30,15 @@ Depending on whether you downloaded the entire dataset or used the online tool t
 |**string_id**|(string)| contains a unique string for each geometry. Geometries are the union of hydrological basins, provinces and groundwater aquifers. The string_id is a combination of pfaf_id-gid_1-aqid. See the description of those columns.  |
 |**aq30_id**|(integer)| unique identifier in numeric format.|  
 |**pfaf_id**| (integer)| six digit Pfafstetter code for the hydrological basins.| 
-|**gid_1**| (string)| identifier for sub-national units based on the GADM dataset. It contains the Iso A3 country code, followed by numeric values separated by underscores for each sub-national unit.|   
+|**gid_1**| (string)| identifier for sub-national units based on the [GADM](https://gadm.org/data.html) dataset. It contains the Iso A3 country code, followed by numeric values separated by underscores for each sub-national unit.|   
 |**aqid**| (integer)| identifier for groundwater Aquifers based on WHYMAP.|
 
 ## Extra identifiers:  
 | Column Name     | Data Type | Description |
 |------------------|-------------|-----|
-|**gid_0** | (string)| ISO A3 country code based on GADM. See GADM for more information. |   
-|**name_0**| (string)| National or political entity name based on GADM. See GADM for more information.|    
-|**name_1**| (string)| Sub-national or political entity name based on GADM, See GADM for more information. |  
+|**gid_0** | (string)| ISO A3 country code based on [GADM](https://gadm.org/data.html).|   
+|**name_0**| (string)| National or political entity name based on [GADM](https://gadm.org/data.html).|    
+|**name_1**| (string)| Sub-national or political entity name based on [GADM](https://gadm.org/data.html).|  
 |**area_km2**| (double)| area of the geometry in km2 (union of sub-basin, province and groundwater aquifer).|  
 
 ## Indicators: 
