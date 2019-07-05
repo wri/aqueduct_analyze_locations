@@ -22,7 +22,7 @@ Downloaded data comes in three flavors:
 
 ## Indicators: 
 
-For each of the 13 indicators the columns contain the indicator abbreviation plus the type, e.g.:  
+For each of the 13 indicators the columns contain the indicator abbreviation plus the type {indicator}\_{type}, e.g.:  
 "bws_raw" is baseline water stress, raw value. The indicator abbreviations and types are listed below.  
 
 ### Physical risk quantity:  
