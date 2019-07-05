@@ -47,7 +47,7 @@ For each of the 13 indicators the columns contain the indicator abbreviation plu
 "bws_raw" is baseline water stress, raw value. The indicator abbreviations and types are listed below.  
 
 ### Physical risk quantity: 
-| Indicator Short    | Indicator Full |
+| Short    | Full |
 |-------------|-----|
 |**bws**| Baseline water stress|  
 |**bwd**| Baseline water depletion|  
@@ -59,23 +59,25 @@ For each of the 13 indicators the columns contain the indicator abbreviation plu
 |**drr**| Drought risk|
 
 ### Physical risk quality:
-| Indicator Short    | Indicator Full |
+| Short    | Full |
 |-------------|-----|
 |**ucw**| Untreated connected wastewater|  
 |**cep**| Coastal eutrophication potential|
 
 ### Regulatory and reputational risk:
-| Indicator Short    | Indicator Full |
+| Short    | Full |
 |-------------|-----|
 |**udw**| Unimproved/no drinking water|    
 |**usa**| Unimproved/no sanitation|  
 |**rri**| Peak RepRisk ESG index|  
 
 ## Types:  
-**\_raw**, (double), raw value. Units depend on the indicator. See the technical note.  
-**\_score**, (double), each indicator is mapped to a [0-5] scale.  
-**\_label**, (string), A label explaining the category of the indicator includin threshold. e.g. "Extremely High (more than 1 in 100)"  
-**\_cat**, (integer), integer for each category [-1,4], can be used for visuals.  
+| Type   | Data Type | Description |
+|------------------|-------------|-----|
+|**\_raw**| (double), raw value. Units depend on the indicator. See the technical note.|  
+|**\_score**| (double), each indicator is mapped to a [0-5] scale.|  
+|**\_label**| (string), A label explaining the category of the indicator includin threshold. e.g. "Extremely High (more than 1 in 100)".|  
+|**\_cat**| (integer), integer for each category [-1,4], can be used for visuals.|  
 
 ## Grouped water risk
 
@@ -89,28 +91,33 @@ e.g. w_awr_min_rrr_score is the aggregated score using the mining weighting sche
 
 
 ### Weighting Scheme
-**def**, Default  
-**agr**, Agriculture  
-**che**, Chemicals  
-**con**, Construction Materials  
-**elp**, Electric Power  
-**fnb**, Food & Beverage  
-**min**, Mining  
-**ong**, Oil & Gas  
-**smc**, Semiconductor  
-**tex**, Textile  
+| Short  | Full |
+|-------------|-----|
+|**def**| Default | 
+|**agr**| Agriculture |  
+|**che**| Chemicals  |
+|**con**| Construction Materials  |
+|**elp**| Electric Power  |
+|**fnb**| Food & Beverage  |
+|**min**| Mining  |
+|**ong**| Oil & Gas |  
+|**smc**| Semiconductor |  
+|**tex**| Textile  |
 
 ### Groups
-
-**qan**, Physical risk quantity  
-**qal**, Physical risk quality  
-**rrr**, Regulatory and reputational risk    
-**tot**, Total, Overall water risk.
+| Short  | Full |
+|-------------|-----|
+|**qan**| Physical risk quantity  |
+|**qal**| Physical risk quality | 
+|**rrr**| Regulatory and reputational risk |
+|**tot**| Total, Overall water risk. |
 
 ### Types
 
 In addition to the types for the individual indicators, we have:  
-**\_weight_fraction**,(double), the fraction [0-1] of the group towards the overall water risk score. NoData is excluded from the weights and therefore the fractions can be lower than 1 depending on data availability. See the technical note for the weights per industy and indicator.  
+| Type   | Data Type | Description |
+|------------------|-------------|-----|
+|**\_weight_fraction**|(double)| the fraction [0-1] of the group towards the overall water risk score. NoData is excluded from the weights and therefore the fractions can be lower than 1 depending on data availability. See the technical note for the weights per industy and indicator.  |
 
 # Monthly Baseline
 
