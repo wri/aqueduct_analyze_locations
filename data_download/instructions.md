@@ -18,7 +18,7 @@ Downloaded data comes in three flavors:
 **gid_1**, string, identifier for sub-national units based on the GADM dataset. It Iso A3 country code, followed by numeric values separated by underscores for each sub-national unit.   
 **aqid**, numerical, identifier for groundwater Aquifers based on WHYMAP.   
 
-##Extra identifiers:  
+## Extra identifiers:  
 **gid_0**, string, ISO A3 country name based on GADM. See GADM for more information.   
 **name_0**, string, National or political entity name based on GADM. See GADM for more information.    
 **name_1**, string, Sub-national or political entity name based on GADM, See GADM for more information.   
@@ -26,7 +26,8 @@ Downloaded data comes in three flavors:
 
 ## Indicators: 
 
-There are 13 indicators (same order as in technical note):  
+For each of the 13 indicators the columns contain the indicator abbreviation plus the type, e.g.:  
+"bws_raw" is baseline water stress, raw value. The indicator abbreviations and types are listed below.  
 
 ### Physical risk quantity:  
 **bws**, Baseline water stress,  
@@ -47,13 +48,48 @@ There are 13 indicators (same order as in technical note):
 **usa**, Unimproved/no sanitation,  
 **rri**, Peak RepRisk ESG index.  
 
-And four types:  
+## Types:  
 **\_raw**, double, raw value. Units depend on the indicator. See the technical note.  
 **\_score**, double, each indicator is mapped to a [0-5] scale.  
 **\_label**, string, A label explaining the category of the indicator includin threshold. e.g. "Extremely High (more than 1 in 100)"  
 **\_cat**, integer, integer for each category [-1,4], can be used for visuals.  
 
-## Groups
+## Grouped water risk
+
+see the technical note for a description of aggregating the 13 indicators into sub-groups and an overall water risk score using the composite index approach. The grouped water risk scores use the follwing format:
+
+w_awr_{weightingscheme}_{group}_{type}
+
+w_awr, stand for weighted aggregated water risk. Mainly used to keep them separate from the remaining indicators.  
+industry, industry defined weighting scheme. 
+
+### Weighting Scheme
+**def**, Default  
+**agr**, Agriculture  
+**che**, Chemicals  
+**con**, Construction Materials  
+**elp**, Electric Power  
+**fnb**, Food & Beverage  
+**min**, Mining  
+**ong**, Oil & Gas  
+**smc**, Semiconductor  
+**tex**, Textile  
+
+### Groups
+
+**qan**, Physical risk quantity  
+**qal**, Physical risk quality 
+**rrr**, Regulatory and reputational risk  
+**tot**, Total, Overall water risk.
+
+### Types
+
+In addition to the types for the individual indicators, we have
+\_weight_fraction, the fraction [0-1] of the group towards the overall water risk score. NoData is excluded from the weights and therefore the fractions can be lower than 1 depending on data availability. See the technical note for the weights per industy and indicator.  
+
+
+
+
 
 
 
