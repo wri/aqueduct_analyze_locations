@@ -76,8 +76,8 @@ e.g. w_awr_min_rrr_score is the aggregated score using the mining weighting sche
 ### Groups
 
 **qan**, Physical risk quantity  
-**qal**, Physical risk quality 
-**rrr**, Regulatory and reputational risk  
+**qal**, Physical risk quality  
+**rrr**, Regulatory and reputational risk    
 **tot**, Total, Overall water risk.
 
 ### Types
