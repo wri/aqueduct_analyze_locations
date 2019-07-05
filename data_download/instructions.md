@@ -17,10 +17,9 @@ Depending on whether you downloaded the entire dataset or used the online tool t
 | **match_address** |(string) | the address as matched by our geocode API. You can check if the match was succesful by comparing with the input_address. Only if using addresses as input file. |  
 | **latitude** | (double) | location latitude (y) in decimal degres. Either specified by the user or derived from the geocoder API. |
 | **longtitude** | (double)| location longitude (x) in decimal degrees. Either specified by the user or derived from the geocoder API. |
-
-**major_basin_name**, (string), Name of the major river basin name. 
-**minor_basin_name**, (string), Name of the minor river basin name.
-**aquifer_name**, (string), Name of the groundwater aquifer system.
+| **major_basin_name** | (string)| Name of the major river basin name. |
+| **minor_basin_name** | (string) | Name of the minor river basin name. |
+| **aquifer_name**| (string), Name of the groundwater aquifer system. |
 
 
 # Annual Baseline
