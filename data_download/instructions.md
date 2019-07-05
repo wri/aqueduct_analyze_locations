@@ -6,6 +6,24 @@ Downloaded data comes in three flavors:
 1. [Monthly Baseline](https://github.com/wri/aqueduct_analyze_locations/blob/master/data_download/instructions.md#monthly-baseline)
 1. [Future Projections](https://github.com/wri/aqueduct_analyze_locations/blob/master/data_download/instructions.md#future-projections)
 
+# Analyze Locations
+
+Depending on whether you downloaded the entire dataset or used the online tool to analyze locations, you can expect various additional columns at the beginning of your data. 
+
+**location_name**, the user-defined name for your location  
+
+* Only if using addresses:
+**input_address**,(string), a copy of the address as specified by the user.
+**match_address**,(string), the address as matched by our geocode API. You can check if the match was succesful by comparing with the input_address
+
+**latitude**, (double), location latitude (y) in decimal degres. Either specified by the user or derived from the geocoder API. 
+**longtitude**, (double), location longitude (x) in decimal degrees. Either specified by the user or derived from the geocoder API. 
+
+**major_basin_name**, (string), Name of the major river basin name. 
+**minor_basin_name**, (string), Name of the minor river basin name.
+**aquifer_name**, (string), Name of the groundwater aquifer system.
+
+
 # Annual Baseline
 
 ## Identifiers:  
