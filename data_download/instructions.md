@@ -8,11 +8,13 @@ Downloaded data comes in three flavors:
 
 Depending on whether you downloaded the entire dataset or used the online tool to analyze locations, you can expect various additional columns at the beginning of your data. 
 
+# Additional Columns
+
 **location_name**, the user-defined name for your location  
 
-* Only if using addresses:
-**input_address**,(string), a copy of the address as specified by the user.
-**match_address**,(string), the address as matched by our geocode API. You can check if the match was succesful by comparing with the input_address
+
+**input_address**,(string), a copy of the address as specified by the user. Only if using addresses as input file.
+**match_address**,(string), the address as matched by our geocode API. You can check if the match was succesful by comparing with the input_address. Only if using addresses as input file.  
 
 **latitude**, (double), location latitude (y) in decimal degres. Either specified by the user or derived from the geocoder API. 
 **longtitude**, (double), location longitude (x) in decimal degrees. Either specified by the user or derived from the geocoder API. 
