@@ -87,8 +87,54 @@ In addition to the types for the individual indicators, we have
 
 # Monthly Baseline
 
+
+
 # Future Projection
 
+There are four indicators, three target years, three scenarios, three data types	
+
+## Identifiers  
+**BasinID**, integer, Sub-basin identifiers.   
+**dwnBasinID**, integer, Next downstream sub-basin.   
+**Area_km2**, double, Area of sub-basin in square kilometer.
+**Shape_Leng**, double, Perimeter of the sub-basin in kilometer.  
+	
+## Indicators  
+The indicators use the following format:  
+{II}{YY}{SS}{R}{X}	 
+
+II,	indicator code  
+YY,	year code   
+SS, scenario code    
+T, data type code    
+X, suffix    
+
+### {II}	Indicator codes  
+ws	water stress  
+sv	seasonal variability  
+ut	water demand  
+bt	water supply  
+	
+### {YY}	Year codes  
+20	2020  
+30	2030  
+40	2040  
+	
+### {SS}	Scenario codes  
+24	ssp2 rcp45 (optimistic)  
+28	ssp2 rcp85 (business as usual)  
+38	ssp3 rcp85 (pessimistic)  
+	
+### {T}	Data types  
+c	change from baseline  
+t	future value  
+u	uncertainty value  
+	
+### {X}	Suffixes  
+l	label string  
+r	raw value  
+	
+For example the layer {ws4028cl} is "projected change in water stress by the year 2040 under a business as usual (ssp2 rcp85) scenario"	 
 
 
 
