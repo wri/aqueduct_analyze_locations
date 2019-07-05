@@ -8,7 +8,7 @@ Downloaded data comes in three flavors:
 
 Depending on whether you downloaded the entire dataset or used the online tool to analyze locations, you can expect various additional columns at the beginning of your data. 
 
-# Additional Columns
+# First columns if using Analyze Locations
 
 **location_name**, the user-defined name for your location  
 
