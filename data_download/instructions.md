@@ -1,9 +1,10 @@
 This document will help you understand the downloaded Aqueduct data. Before diving into the results, make sure to familiarize yourself with our technical notes (todo:insert link). For questions, check out our FAQ page (todo:insert link)
 
 Downloaded data comes in three flavors:
-1. Annual Baseline
-1. Monthly Baseline
-1. Future Projection
+1. [Annual Baseline](https://github.com/wri/aqueduct_analyze_locations/blob/master/data_download/instructions.md#annual-baseline
+)
+1. [Monthly Baseline](https://github.com/wri/aqueduct_analyze_locations/blob/master/data_download/instructions.md#monthly-baseline)
+1. [Future Projections](https://github.com/wri/aqueduct_analyze_locations/blob/master/data_download/instructions.md#future-projections)
 
 # Annual Baseline
 
@@ -89,14 +90,14 @@ In addition to the types for the individual indicators, we have
 
 
 
-# Future Projection
+# Future Projections
 
 There are four indicators, three target years, three scenarios, three data types	
 
 ## Identifiers  
 **BasinID**, integer, Sub-basin identifiers.   
 **dwnBasinID**, integer, Next downstream sub-basin.   
-**Area_km2**, double, Area of sub-basin in square kilometer.
+**Area_km2**, double, Area of sub-basin in square kilometer.  
 **Shape_Leng**, double, Perimeter of the sub-basin in kilometer.  
 	
 ## Indicators  
