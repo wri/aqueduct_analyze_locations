@@ -6,8 +6,6 @@ Downloaded data comes in three flavors:
 1. [Monthly Baseline](https://github.com/wri/aqueduct_analyze_locations/blob/master/data_download/instructions.md#monthly-baseline)
 1. [Future Projections](https://github.com/wri/aqueduct_analyze_locations/blob/master/data_download/instructions.md#future-projections)
 
-# Analyze Locations
-
 Depending on whether you downloaded the entire dataset or used the online tool to analyze locations, you can expect various additional columns at the beginning of your data. 
 
 **location_name**, the user-defined name for your location  
@@ -105,6 +103,10 @@ In addition to the types for the individual indicators, we have
 \_weight_fraction, the fraction [0-1] of the group towards the overall water risk score. NoData is excluded from the weights and therefore the fractions can be lower than 1 depending on data availability. See the technical note for the weights per industy and indicator.  
 
 # Monthly Baseline
+
+**month**, (integer), Month of the year.
+
+See indicator section at annual baseline. 
 
 
 
