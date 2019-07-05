@@ -6,9 +6,10 @@ Downloaded data comes in three flavors:
 1. [Monthly Baseline](https://github.com/wri/aqueduct_analyze_locations/blob/master/data_download/instructions.md#monthly-baseline)
 1. [Future Projections](https://github.com/wri/aqueduct_analyze_locations/blob/master/data_download/instructions.md#future-projections)
 
-Depending on whether you downloaded the entire dataset or used the online tool to analyze locations, you can expect various additional columns at the beginning of your data. 
 
-# First columns if using Analyze Locations
+# Location columns
+These columns are only added to your data if you analyzed your locations in the online tool. Users that download the entire dataset will not have these.  
+
 
 | Column Name     | Data Type | Description |
 |------------------|-------------|-----|
