@@ -1,4 +1,4 @@
-This document will help you understand the downloaded Aqueducrt data. Before diving into the results, make sure to familiarize yourself with our technical notes (todo:insert link). For questions, check out our FAQ page (todo:insert link)
+This document will help you understand the downloaded Aqueduct data. Before diving into the results, make sure to familiarize yourself with our technical notes (todo:insert link). For questions, check out our FAQ page (todo:insert link)
 
 Downloaded data comes in three flavors:
 1. Annual Baseline
