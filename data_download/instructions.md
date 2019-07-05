@@ -106,6 +106,9 @@ In addition to the types for the individual indicators, we have:
 
 # Monthly Baseline
 
+## Identifiers:  
+
+**pfaf_id**, (integer), six digit Pfafstetter code for the hydrological basins.  
 **month**, (integer), Month of the year.
 
 ## Indicators: 
