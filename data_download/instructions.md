@@ -23,7 +23,9 @@ These columns are only added to your data if you analyzed your locations in the 
 | **aquifer_name**| (string)| Name of the groundwater aquifer system. |
 
 
-# Annual Baseline
+# Annual Baseline  
+
+The columns in the Annual baseline results can be grouped into "identifiers", "indicators" and "grouped water risk"  
 
 ## Identifiers:  
 | Column Name     | Data Type | Description |
@@ -33,10 +35,6 @@ These columns are only added to your data if you analyzed your locations in the 
 |**pfaf_id**| (integer)| six digit Pfafstetter code for the hydrological basins.| 
 |**gid_1**| (string)| identifier for sub-national units based on the [GADM](https://gadm.org/data.html) dataset. It contains the Iso A3 country code, followed by numeric values separated by underscores for each sub-national unit.|   
 |**aqid**| (integer)| identifier for groundwater Aquifers based on WHYMAP.|
-
-## Extra identifiers:  
-| Column Name     | Data Type | Description |
-|------------------|-------------|-----|
 |**gid_0** | (string)| ISO A3 country code based on [GADM](https://gadm.org/data.html).|   
 |**name_0**| (string)| National or political entity name based on [GADM](https://gadm.org/data.html).|    
 |**name_1**| (string)| Sub-national or political entity name based on [GADM](https://gadm.org/data.html).|  
