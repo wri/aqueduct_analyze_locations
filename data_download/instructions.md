@@ -11,7 +11,7 @@ Downloaded data comes in three flavors:
 
 # Annual Baseline
 
-##Identifiers:  
+## Identifiers:  
 **string_id**, string, contains a unique string for each geometry. Geometries are the union of hydrological basins, provinces and groundwater aquifers. The string_id is a combination of pfaf_id-gid_1-aqid. See the description of those columns.  
 **aq30_id**, numerical, unique identifier.  
 **pfaf_id**, numerical, six digit Pfafstetter code for the hydrological basins.  
@@ -28,30 +28,30 @@ Downloaded data comes in three flavors:
 
 There are 13 indicators (same order as in technical note):  
 
-###Physical risk quantity:  
-bws, Baseline water stress,  
-bwd, Baseline water depletion,  
-iav, Interannual variability,  
-sev, Seasonal variability,  
-gtd, Groundwater table decline,  
-rfr, Riverine flood risk,  
-cfr, Coastal flood risk,  
-drr, Drought risk
+### Physical risk quantity:  
+**bws**, Baseline water stress,  
+**bwd**, Baseline water depletion,  
+**iav**, Interannual variability,  
+**sev**, Seasonal variability,  
+**gtd**, Groundwater table decline,  
+**rfr**, Riverine flood risk,  
+**cfr**, Coastal flood risk,  
+**drr**, Drought risk
 
-###Physical risk quality:
-ucw, Untreated connected wastewater,  
-cep, Coastal eutrophication potential.
+### Physical risk quality:
+**ucw**, Untreated connected wastewater,  
+**cep**, Coastal eutrophication potential.
 
-###Regulatory and reputational risk:
-udw, Unimproved/no drinking water,   
-usa, Unimproved/no sanitation,  
-rri, Peak RepRisk ESG index.  
+### Regulatory and reputational risk:
+**udw**, Unimproved/no drinking water,   
+**usa**, Unimproved/no sanitation,  
+**rri**, Peak RepRisk ESG index.  
 
 And four types:  
-\_raw, double, raw value. Units depend on the indicator. See the technical note.  
-\_score, double, each indicator is mapped to a [0-5] scale.  
-\_label, string, A label explaining the category of the indicator includin threshold. e.g. "Extremely High (more than 1 in 100)"  
-\_cat, integer, integer for each category [-1,4], can be used for visuals.  
+**\_raw**, double, raw value. Units depend on the indicator. See the technical note.  
+**\_score**, double, each indicator is mapped to a [0-5] scale.  
+**\_label**, string, A label explaining the category of the indicator includin threshold. e.g. "Extremely High (more than 1 in 100)"  
+**\_cat**, integer, integer for each category [-1,4], can be used for visuals.  
 
 ## Groups
 
