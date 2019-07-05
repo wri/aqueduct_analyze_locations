@@ -19,7 +19,7 @@ Depending on whether you downloaded the entire dataset or used the online tool t
 | **longtitude** | (double)| location longitude (x) in decimal degrees. Either specified by the user or derived from the geocoder API. |
 | **major_basin_name** | (string)| Name of the major river basin name. |
 | **minor_basin_name** | (string) | Name of the minor river basin name. |
-| **aquifer_name**| (string), Name of the groundwater aquifer system. |
+| **aquifer_name**| (string)| Name of the groundwater aquifer system. |
 
 
 # Annual Baseline
