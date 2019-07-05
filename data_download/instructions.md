@@ -25,11 +25,13 @@ Depending on whether you downloaded the entire dataset or used the online tool t
 # Annual Baseline
 
 ## Identifiers:  
-**string_id**,(string), contains a unique string for each geometry. Geometries are the union of hydrological basins, provinces and groundwater aquifers. The string_id is a combination of pfaf_id-gid_1-aqid. See the description of those columns.  
-**aq30_id**, (integer), unique identifier.  
-**pfaf_id**, (integer), six digit Pfafstetter code for the hydrological basins.  
-**gid_1**, (string), identifier for sub-national units based on the GADM dataset. It contains the Iso A3 country code, followed by numeric values separated by underscores for each sub-national unit.   
-**aqid**, (integer), identifier for groundwater Aquifers based on WHYMAP.   
+| Column Name     | Data Type | Description |
+|------------------|-------------|-----|
+|**string_id**|(string)| contains a unique string for each geometry. Geometries are the union of hydrological basins, provinces and groundwater aquifers. The string_id is a combination of pfaf_id-gid_1-aqid. See the description of those columns.  |
+|**aq30_id**|(integer)| unique identifier in numeric format.|  
+|**pfaf_id**| (integer)| six digit Pfafstetter code for the hydrological basins.| 
+|**gid_1**| (string)| identifier for sub-national units based on the GADM dataset. It contains the Iso A3 country code, followed by numeric values separated by underscores for each sub-national unit.|   
+|**aqid**| (integer)| identifier for groundwater Aquifers based on WHYMAP.|
 
 ## Extra identifiers:  
 **gid_0**, (string), ISO A3 country code based on GADM. See GADM for more information.   
