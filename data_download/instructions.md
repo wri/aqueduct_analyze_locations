@@ -106,9 +106,16 @@ In addition to the types for the individual indicators, we have
 
 **month**, (integer), Month of the year.
 
-See indicator section at annual baseline. 
+## Indicators: 
+**bws**, Baseline water stress,  
+**bwd**, Baseline water depletion,  
+**iav**, Interannual variability,  
 
-
+## Types:  
+**\_raw**, double, raw value. Units depend on the indicator. See the technical note.  
+**\_score**, double, each indicator is mapped to a [0-5] scale.  
+**\_label**, string, A label explaining the category of the indicator includin threshold. e.g. "Extremely High (more than 1 in 100)"  
+**\_cat**, integer, integer for each category [-1,4], can be used for visuals.  
 
 # Future Projections
 
