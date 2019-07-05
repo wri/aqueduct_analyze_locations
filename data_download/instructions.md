@@ -54,10 +54,12 @@ For each of the 13 indicators the columns contain the indicator abbreviation plu
 
 see the technical note for a description of aggregating the 13 indicators into sub-groups and an overall water risk score using the composite index approach. The grouped water risk scores use the follwing format:
 
-w_awr_{weightingscheme}\_{group}\_{type}
+w_awr_{weightingscheme}\_{group}\_{type}  
 
-w_awr, stand for weighted aggregated water risk. Mainly used to keep them separate from the remaining indicators.  
-industry, industry defined weighting scheme. 
+w_awr, stand for weighted aggregated water risk. Mainly used to keep them separate from the remaining indicators.    
+
+e.g. w_awr_min_rrr_score is the aggregated score using the mining weighting scheme for the regulatory and reputational risk group.
+
 
 ### Weighting Scheme
 **def**, Default  
