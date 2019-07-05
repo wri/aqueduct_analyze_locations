@@ -34,10 +34,12 @@ Depending on whether you downloaded the entire dataset or used the online tool t
 |**aqid**| (integer)| identifier for groundwater Aquifers based on WHYMAP.|
 
 ## Extra identifiers:  
-**gid_0**, (string), ISO A3 country code based on GADM. See GADM for more information.   
-**name_0**, (string), National or political entity name based on GADM. See GADM for more information.    
-**name_1**, (string), Sub-national or political entity name based on GADM, See GADM for more information.   
-**area_km2**, (double), area of the geometry in km2 (union of sub-basin, province and groundwater aquifer).  
+| Column Name     | Data Type | Description |
+|------------------|-------------|-----|
+|**gid_0** | (string)| ISO A3 country code based on GADM. See GADM for more information. |   
+|**name_0**| (string)| National or political entity name based on GADM. See GADM for more information.|    
+|**name_1**| (string)| Sub-national or political entity name based on GADM, See GADM for more information. |  
+|**area_km2**| (double)| area of the geometry in km2 (union of sub-basin, province and groundwater aquifer).|  
 
 ## Indicators: 
 
