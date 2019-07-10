@@ -6,6 +6,8 @@ Downloaded data comes in three flavors:
 1. [Monthly Baseline](https://github.com/wri/aqueduct_analyze_locations/blob/master/data_download/instructions.md#monthly-baseline)
 1. [Future Projections](https://github.com/wri/aqueduct_analyze_locations/blob/master/data_download/instructions.md#future-projections)
 
+This [script](https://colab.research.google.com/drive/1wtWUCm7JHHwhGZ8LdrrLcUJkkZsAXNDe), can help you generate the column names programatically. 
+
 
 # Location columns
 These columns are only added to your data if you analyzed your locations in the online tool. Users that download the entire dataset will not have these.  
