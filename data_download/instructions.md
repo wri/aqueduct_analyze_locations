@@ -73,10 +73,10 @@ For each of the 13 indicators the columns contain the indicator abbreviation plu
 ## Types:  
 | Type   | Data Type | Description |
 |------------------|-------------|-----|
-|**\_raw**| (double), raw value. Units depend on the indicator. See the technical note.|  
-|**\_score**| (double), each indicator is mapped to a [0-5] scale.|  
-|**\_label**| (string), A label explaining the category of the indicator includin threshold. e.g. "Extremely High (more than 1 in 100)".|  
-|**\_cat**| (integer), integer for each category [-1,4], can be used for visuals.|  
+|**\_raw**| (double) | raw value. Units depend on the indicator. See the technical note.|  
+|**\_score**| (double) | each indicator is mapped to a [0-5] scale.|  
+|**\_label**| (string) | A label explaining the category of the indicator including threshold. e.g. "Extremely High (more than 1 in 100)".|  
+|**\_cat**| (integer) | integer for each category [-1,4], can be used for visuals.|  
 
 ## Grouped water risk
 
@@ -112,10 +112,14 @@ e.g. w_awr_min_rrr_score is the aggregated score using the mining weighting sche
 |**tot**| Total, Overall water risk. |
 
 ### Types
-
-In addition to the types for the individual indicators, we have:  
-
-**\_weight_fraction**, (double), the fraction [0-1] of the group towards the overall water risk score. NoData is excluded from the weights and therefore the fractions can be lower than 1 depending on data availability. See the technical note for the weights per industy and indicator.  
+## Types:  
+| Type   | Data Type | Description |
+|------------------|-------------|-----|
+|**\_raw**| (double)| raw value on 0-5 scale. Result of weighted composite approach|  
+|**\_score**| (double) | score [0-5], result of applying a quantile approach to raw values. See technical note |  
+|**\_label**| (string) | A label explaining the category of the grouped water risk.|  
+|**\_cat**| (integer)| integer for each category [-1,4], can be used for visuals.|  
+|**\_weight_fraction**| (double)| the fraction [0-1] of the group towards the overall water risk score. NoData is excluded from the weights and therefore the fractions can be lower than 1 depending on data availability. See the technical note for the weights per industy and indicator. |
 
 # Monthly Baseline
 
