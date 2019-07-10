@@ -112,7 +112,7 @@ e.g. w_awr_min_rrr_score is the aggregated score using the mining weighting sche
 |**tot**| Total, Overall water risk. |
 
 ### Types
-## Types:  
+
 | Type   | Data Type | Description |
 |------------------|-------------|-----|
 |**\_raw**| (double)| raw value on 0-5 scale. Result of weighted composite approach|  
