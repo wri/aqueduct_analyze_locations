@@ -1,8 +1,16 @@
+# Instructions for using files with coordinates.
+
+## **Q: How should I format my excel address file?**
+A: Your excel file should contain three columns: location name, latitude and longtidue. See the [template](https://github.com/wri/aqueduct_analyze_locations/blob/master/input_templates/example_coordinates.xlsx)
+
+## **Q: Which coordinate notation should I use?**  
+A: use latitude and longitude in decimal degrees.
+
 # Instructions for using files with addresses.
 
 ## **Q: How should I format my excel address file?**
 
-A: Your excel file should contain two columns: location name and address. See the [template](https://github.com/wri/aqueduct_analyze_locations/blob/master/input_templates/example_address.csv)
+A: Your excel file should contain two columns: location name and address. See the [template](https://github.com/wri/aqueduct_analyze_locations/blob/master/input_templates/example_address.xlsx)
 
 If your address components (street name, city, county) are in different columns, you should merge them into a single column. See the questions below on how to merge columns.  
 
