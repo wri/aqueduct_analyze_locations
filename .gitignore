@@ -102,3 +102,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+input_templates/~$example_address.xlsx
